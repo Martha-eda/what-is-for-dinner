@@ -1,0 +1,56 @@
+<!--
+martha edafiaga
+assignmnet 4
+3/23/2020
+cmpt304
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assign4.css"> 
+</head>
+<body>
+  <!-- this Splitted the  screen in half-->
+  <div class = "split left">     
+    <div id ="guess1">Tell me what is for Dinner?</div>
+    <div id ="guess2">[please click on what you think is for dinner if you need help click on hints to help you. you have two tries good luck.]</div>
+	  <div id ="third">
+      <button onclick = "checkCookie()" id="Start">
+        Start Game
+      </button>
+    </div>
+    <!-- this sets the  visibility to hidden-->
+    <div id="pic" style="visibility:hidden;" >           
+      <img id="dinner" src="burger.png" alt="Fries" name="Fries" width="265" height="150">
+    </div>
+    <br><br><br><br><br><br><br>
+    <div id="name" style="visibility:hidden;">
+      <button onclick="guess(event)" name="Fries">Fries</button>
+      <button onclick="guess(event)" name="Chicken">Chicken</button>
+      <button onclick="guess(event)" name="burger">Burger</button>
+      <button onclick="guess(event)" name="Sandwich">Sandwich</button>
+    </div>
+    </div>
+  </div>
+  <!--this does the right spilt-->
+  <div class="split right">   
+    <div id="side" style="visibility:hidden;" align="left">   
+      <button onclick="showname()">Hint</button>
+      <button onclick="">Pause</button>
+    </div>
+    <!--this does the buttons for tries-->
+    <div id ="no" style="visibility:hidden;">
+      <p class="numtry">Number of tries</p>
+      
+      <button id="tries" value="2">2</button>
+    </div>
+  </div>
+  <!--this including js s-->
+  <script src="assign4.js"></script>    
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</body>
+</html>

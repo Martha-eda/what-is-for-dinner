@@ -1,0 +1,139 @@
+/*
+martha edafiaga
+assignmnet 4
+3/23/2020
+cmpt304
+*/
+
+
+
+
+
+body{
+	background: green;
+}
+
+#guess1 
+{
+	color: yellow;
+	border-style: solid;
+	width: 50%;
+	margin: 50px auto;
+	text-align: center;
+	background-color: transparent;
+	font-size: 25px;
+	padding: 14px;
+}
+
+#guess2 
+{
+	border-style: solid;
+	border-color: transparent;
+	font-size: 20px;
+	text-align: center;
+	margin: 12px auto;
+}
+
+
+
+#third 
+{
+	border-style: solid;
+	border-color: transparent;
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+
+
+
+
+button 
+{
+  color: yellow;
+  background-color: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	margin: 20px 40px;
+	width: 160px;
+	display: block;
+}
+
+
+#name 
+{
+	border-size: 2px;
+	border-style: solid;
+	border-color: transparent;
+	width: 65%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+#no
+{
+	font-size: 20px;
+
+}
+
+#name button 
+{
+	display: inline;
+	width: 29%;
+}
+
+.numtry 
+{
+	padding-left: 40px;
+}
+
+
+.split 
+{
+  height: 100%;
+  width: 74%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 30;
+  
+}
+
+
+.left 
+{
+  left: 0%;
+  background-color: green;
+  
+}
+
+#tries 
+{
+	font-size: 30px;
+}
+
+.right 
+{
+  right: -46%;
+  top: 20%;
+
+  }
+
+
+
+#pic {
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 37%;
+    top: 32%;
+    clip: rect(69px, 267px, 121px, 11px);
+}
+
