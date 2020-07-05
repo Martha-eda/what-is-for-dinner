@@ -1,20 +1,20 @@
 # what-is-for-dinner
 This is a kids game
 
-Navigation
+Navigation:
 
-Frist enter your name in the popup box 
+1.Frist enter your name in the popup box 
 
-Then pick what you think is in the menu for diner 
+2.Then pick what you think is in the menu for diner 
 
-If you are not sure what to pick you can use the hint to help
+3.If you are not sure what to pick you can use the hint to help
 
-You can also pause the game 
+4.You can also pause the game 
 
-You have two tries
+5.You have two tries
 
-Win/Loss
+Win/Loss:
 
-when you pick the right food on the menu a popup box will let you know that you won
+1.When you pick the right food on the menu a popup box will let you know that you won
 
-when you pick the wrong food on the menu a popup box will let you know that you have one more trie
+2.When you pick the wrong food on the menu a popup box will let you know that you have one more trie
